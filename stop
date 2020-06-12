@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+
+CLUSTER_NAME="istio-testing"
+
+# Create cluster
+kind delete cluster --name "$CLUSTER_NAME"
